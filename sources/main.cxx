@@ -6,7 +6,7 @@ static void set_node(Node &n, uint x, uint y) {
   n.x = x;
   n.y = y;
 }
-// huilo
+
 int main() {
   Node a, b;
   set_node(a, 1, 2);

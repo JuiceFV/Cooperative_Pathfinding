@@ -24,7 +24,7 @@ set(PS_SRCDIR "sources/Problem_Solver/")
 # Set sources variables
 set(${PROJECT_NAME}_main "sources/main.cxx")
 set(${PROJECT_NAME}_sources "${PS_SRCDIR}Agent.cxx" "${PS_SRCDIR}Map.cxx")
-set(${PROJECT_NAME}_headers "includes/Agent.hpp" "includes/Map.hpp")
+set(${PROJECT_NAME}_headers "includes/Agent.hpp" "includes/Map.hpp" "includes/common.hpp")
 
 add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_main} ${${PROJECT_NAME}_sources} ${${PROJECT_NAME}_headers})
 target_include_directories(${PROJECT_NAME} PRIVATE "includes" )

@@ -20,6 +20,8 @@ int main()
 	std::cout << "a: " << a << std::endl << "b: " << b << endl;
 	a != b ? std::cout << "a does not equal b" : std::cout << "a equal b";
 	std::cout << std::endl;
-	system("pause");
+	#if defined(_MSC_VER) || defined(_WIN32)
+		system("pause");
+	#endif
 	return (0);
 }

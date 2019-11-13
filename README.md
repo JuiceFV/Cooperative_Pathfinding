@@ -20,7 +20,8 @@ For the creation build from the sources, you will needed in CMake. This util wil
 - Go to the working derictory, which we have been cloned on previous step
 	> \> cd Coop_Pathfinding
 	- Now you have a such hierarchy
-  	![Working directory tree](https://user-images.githubusercontent.com/35202460/68800408-157cf700-066b-11ea-852c-047506d1e9f9.png)
+  
+  		![Working directory tree](https://user-images.githubusercontent.com/35202460/68800408-157cf700-066b-11ea-852c-047506d1e9f9.png)
 - Now let's create folder called "build"
 	> \> mkdir build
 - And going there

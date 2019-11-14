@@ -21,10 +21,18 @@ include(cmake/setflags.cmake)
 # set directory variable with problem solver sorces
 set(PS_SRCDIR "sources/Problem_Solver/")
 
+# set variable which is attend to incorporate tests.hpp
+# within project
+set(TESTS 0)
+
 # Set sources variables
 set(${PROJECT_NAME}_main "sources/main.cxx")
 set(${PROJECT_NAME}_sources "${PS_SRCDIR}Agent.cxx" "${PS_SRCDIR}Map.cxx")
 set(${PROJECT_NAME}_headers "includes/Agent.hpp" "includes/Map.hpp" "includes/common.hpp")
+
+if(TESTS)
+	set(${PROJECT_NAME}_headers "${${PROJECT_NAME}_headers}" "tests/tests.hpp")
+endif()
 
 add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_main} ${${PROJECT_NAME}_sources} ${${PROJECT_NAME}_headers})
 target_include_directories(${PROJECT_NAME} PRIVATE "includes" )

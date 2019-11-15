@@ -27,8 +27,8 @@ set(TESTS 0)
 
 # Set sources variables
 set(${PROJECT_NAME}_main "sources/main.cxx")
-set(${PROJECT_NAME}_sources "${PS_SRCDIR}Agent.cxx" "${PS_SRCDIR}Map.cxx")
-set(${PROJECT_NAME}_headers "includes/Agent.hpp" "includes/Map.hpp" "includes/common.hpp")
+set(${PROJECT_NAME}_sources "${PS_SRCDIR}Agent.cxx" "${PS_SRCDIR}Map.cxx" "${PS_SRCDIR}Solver.cxx")
+set(${PROJECT_NAME}_headers "includes/Agent.hpp" "includes/Map.hpp" "includes/common.hpp" "includes/Solver.hpp")
 
 if(TESTS)
 	set(${PROJECT_NAME}_headers "${${PROJECT_NAME}_headers}" "tests/tests.hpp")

@@ -19,7 +19,7 @@ static void add_agents_into_list(vector<Agent*>& agent_list, list<Agent> list,
   }
 }
 int main() {
-  Map map(10, 16, 21);  // 10 is WINDOW_SIZE
+  Map map(8, 16, 20);  // 8 is WINDOW_SIZE
   map.print_map();
   cout << endl;
 

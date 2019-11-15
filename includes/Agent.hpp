@@ -9,7 +9,7 @@ class Agent {
   std::unordered_map<Node, unsigned int> g_score;
   std::unordered_map<Node, unsigned int> f_score;
   std::unordered_map<Node, unsigned int> closed_set;
-  std::priority_queue<Node, std::vector<Node>, compare_node_f_score>
+  prior_queue<Node, std::vector<Node>, compare_node_f_score>
       open_set;  // lowest fscore on top()
 
   // Consructor

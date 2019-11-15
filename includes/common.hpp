@@ -11,7 +11,7 @@
 #include <unordered_map>
 #include <utility>
 
-#define WINDOW_SIZE 10
+#define WINDOW_SIZE 8
 
 using namespace std;
 using uint = unsigned int;
@@ -37,6 +37,11 @@ typedef struct compare_node_f_score {
   }
 } compare_node_f_score;
 
+typedef struct compare_node_g_score {
+  bool operator()(const Node &a, const Node &b) const {
+    return (a.g_score > b.g_score);
+  }
+} compare_node_g_score;
 // Because there is no the specialization for the my own
 // struct Node. The unordered_map uses the std::hash, therefor
 // we need to specialize the hash.
@@ -54,3 +59,24 @@ struct hash<Node> {
 };
 
 }  // namespace std
+
+template <class T, class Container = std::vector<T>,
+          class Compare = std::less<typename Container::value_type>>
+class prior_queue : public std::priority_queue<T, Container, Compare> {
+ public:
+  typedef typename std::priority_queue<
+      T, Container, Compare>::container_type::const_iterator const_iterator;
+  bool find(const T &val) const {
+    auto first = this->c.cbegin();
+    auto last = this->c.cend();
+    while (first != last) {
+      if (*first == val) return (true);
+      ++first;
+    }
+    return (false);
+  }
+};
+
+// priority queue specialized for gScore( lowest on top )
+// gScore is the true distance from start to goal
+using p_queue = prior_queue<Node, std::vector<Node>, compare_node_g_score>;

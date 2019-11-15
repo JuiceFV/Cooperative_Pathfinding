@@ -11,6 +11,8 @@
 #include <unordered_map>
 #include <utility>
 
+#define WINDOW_SIZE 10
+
 using namespace std;
 using uint = unsigned int;
 

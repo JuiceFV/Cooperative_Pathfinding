@@ -9,7 +9,7 @@ static void set_agent(Agent& agent, const Node start, const Node goal) {
   agent.set_goal(goal);
 }
 
-static void add_agents_into_list(vector<Agent*>& agent_list, list<Agent> list,
+static void add_agents_into_list(vector<Agent*>& agent_list, list<Agent>& list,
                                  Map& map) {
   for (auto& agent : list) {
     agent_list.push_back(&agent);
@@ -31,7 +31,16 @@ int main() {
   Agent b('B');
   set_agent(b, {8, 1, 0}, {1, 1, numeric_limits<uint>::max()});
 
-  add_agents_into_list(agent_list, {a, b}, map);
+  agent_list.push_back(&a);
+  if (!get_true_distance_heuristic(a, map, a.get_start()))
+    cout << "Agent " << a.get_name()
+         << " failed at searching requested location!\n ";
+
+  agent_list.push_back(&b);
+  if (!get_true_distance_heuristic(b, map, b.get_start()))
+    cout << "Agent " << b.get_name()
+         << " failed at searching requested location!\n ";
+
   uint n_agents = agent_list.size();
   bool all_agents_find_goal = false;
   while (!all_agents_find_goal) {

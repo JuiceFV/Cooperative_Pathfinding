@@ -3,14 +3,14 @@ Path-finding is one of the basic problems in the field of artificial intelligenc
 A natural extension of the basic path-finding problem is multi-agent pathfinding. In this problem, we are given multiple agents, each with its own goal, and the task is to again guide them toward their goals along the edges of a given graph. Agents have knowledge of each other’s plans, which allows them to cooperate. The amount of cooperation required between agents depends on the problem instance, and it can vary from very high on instances where the number of agents is close to the number of available vertices to very low on instances where the number of agents is small relative to the size of the graph and there is enough space between the agents.
 
 ## Table of Content
-- [Cooperative Pathfinding](#cooperative-pathfinding)
+- [Cooperative Pathfinding Version 0.0.1](#cooperative-pathfinding-version-001)
 	- [Table of Content](#table-of-content)
 	- [Instalation](#instalation)
 		- [Prerequirements](#prerequirements)
 		- [Install](#install)
 ## Instalation
 ### Prerequirements
-For the creation build from the sources, you will needed in CMake. This util will configure a project structure for any IDE. You can download it [here](https://cmake.org/download/).
+For the build creation from the sources, you will needed in CMake. This util will configure a project structure for any IDE. You can download it [here](https://cmake.org/download/).
 
 ### Install
 - Go to the path where you want to clone

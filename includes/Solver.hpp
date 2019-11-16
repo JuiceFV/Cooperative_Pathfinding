@@ -38,8 +38,9 @@ void print_agents_current_position(vector<Agent *> agents);
 bool check_collision_type2(const hash_map &hmap_t0, hash_map &hmap_t1,
                            vector<vector<Node>> &collision_nodes_pairs);
 
-void fix_pair(hash_map &t0, hash_map &t1, Node a1_current_node,
-              Node &a2_current_node, Map &m);
+void fix_pair(hash_map &hmap_t0, hash_map &hmap_t1,
+              Node first_agent_current_node, Node &second_agent_current_node,
+              Map &m);
 
 void fix_agents(hash_map &hmap_t0, hash_map &hmap_t1,
                 vector<vector<Node>> &collision_nodes_pairs, Map &m);

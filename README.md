@@ -1,9 +1,11 @@
-# Cooperative Pathfinding Version 0.0.1
+# Cooperative Pathfinding Version 0.1
 Path-finding is one of the basic problems in the field of artificial intelligence and computer science in general. In the most basic variant, the task is to find a path for an agent through a given graph, so that the agent moves from vertex to vertex along the edges of the graph and ends in a specified goal vertex. 
 A natural extension of the basic path-finding problem is multi-agent pathfinding. In this problem, we are given multiple agents, each with its own goal, and the task is to again guide them toward their goals along the edges of a given graph. Agents have knowledge of each other’s plans, which allows them to cooperate. The amount of cooperation required between agents depends on the problem instance, and it can vary from very high on instances where the number of agents is close to the number of available vertices to very low on instances where the number of agents is small relative to the size of the graph and there is enough space between the agents.
+![version 0.1](https://user-images.githubusercontent.com/35202460/69015051-4332aa80-09a1-11ea-991c-bcbe32d7ec6e.gif)
+
 
 ## Table of Content
-- [Cooperative Pathfinding Version 0.0.1](#cooperative-pathfinding-version-001)
+- [Cooperative Pathfinding Version 0.1](#cooperative-pathfinding-version-01)
 	- [Table of Content](#table-of-content)
 	- [Instalation](#instalation)
 		- [Prerequirements](#prerequirements)

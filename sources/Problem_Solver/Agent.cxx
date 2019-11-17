@@ -46,37 +46,20 @@ void Agent::set_portion_path(
   }
   for (auto i = 0; i < WINDOW_SIZE; ++i) {
     if (current == goal) break;
-
-	// fucked up here
     if (came_from.find(current) == came_from.end()) break;
 
     next_best = came_from[current];
     // First case:  next best node is not occupied, but is it safe for me to go
     // there?
-    if (space_map[i].find(next_best) == space_map[i + 1].end()) {
-      cout << "SPP: at time " << i << " " << name << " is walking towards "
-           << next_best << endl;
-      cout << "Blya shas vrezus' scuka!!!  \n";
+    if (space_map[i].find(next_best) != space_map[i + 1].end()) {
       auto search1 = space_map[i].find(current);
       if (search1 != space_map[i].end()) {
-        cout << "Blya sho za daun po vstrechke edet? ";
         Agent* another_agent = search1->second;
-        cout << "Agent " << another_agent->get_name()
-             << " edet na menya, pizda mudak!!!\n";
-        cout << "Hmmm mb eto ya dolboeb, ya edy na Agent "
-             << another_agent->get_name() << " ?\n";
 
         auto search2 = space_map[i - 1].find(next_best);
         if (search1->second == search2->second) {
-          cout << "Net blyad' eto on!\n";
-          cout << "Slish' yebishe yed' so vstrechki, a to nam pizda, naydi "
-                  "drugoi"
-               << next_best << endl;
-
           uint x = current.x;
           uint y = current.y;
-          cout << "current: " << current << endl;
-          cout << "prev: " << prev << endl;
 
           vector<Node> neighbors = {
               {x - 1, y}, {x + 1, y}, {x, y - 1}, {x, y + 1}};
@@ -89,8 +72,7 @@ void Agent::set_portion_path(
             if (neighbor == prev)
               continue;  //  we dont want agent go back. sometimes going back is
                          //  the only option.
-            cout << "Evaluating: " << neighbor
-                 << "\tg_score: " << g_score[neighbor] << endl;
+
             if (g_score[neighbor] < next_best_g_score &&
                 space_map[i].find(neighbor) ==
                     space_map[i]
@@ -114,12 +96,11 @@ void Agent::set_portion_path(
       continue;
     }
     // The second case: the next best node is occupied
-    cout << "SSP: find second best option\n";
     // get non - obstacles neighbors
     uint x = current.x;
     uint y = current.y;
-    cout << "current: " << current << endl;
-    cout << "prev: " << prev << endl;
+    /*cout << "current: " << current << endl;
+    cout << "prev: " << prev << endl;*/
 
     vector<Node> neighbors = {{x - 1, y}, {x + 1, y}, {x, y - 1}, {x, y + 1}};
     uint current_best_g_score = g_score[current];
@@ -129,8 +110,6 @@ void Agent::set_portion_path(
       if (neighbor == next_best) continue;
       if (neighbor == prev) continue;
 
-      cout << "Evaluating: " << neighbor << "\tg_score: " << g_score[neighbor]
-           << endl;
       if (g_score[neighbor] < next_best_g_score &&
           space_map[i].find(neighbor) ==
               space_map[i]
@@ -173,7 +152,6 @@ uint Agent::get_path_length() const { return (path.size()); }
 
 bool Agent::get_next_node(const Node& n, Node& next) {
   if (n == path.back()) {
-    cout << "Ti daun chi sho?! Ya doehal. Vo eblan na programiste" << endl;
     next = {std::numeric_limits<uint>::max(), std::numeric_limits<uint>::max()};
     return (false);
   }
@@ -187,7 +165,7 @@ bool Agent::get_next_node(const Node& n, Node& next) {
     if (node == n) found = true;
   }
   return (false);
-}  //  TODO: fix the comment;
+}
 
 Node Agent::get_front_node() {
   return (path.empty() ? current_node : path.front());

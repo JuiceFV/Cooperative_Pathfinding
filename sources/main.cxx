@@ -1,5 +1,4 @@
-﻿#include "../tests/tests.hpp"
-#include "Agent.hpp"
+﻿#include "Agent.hpp"
 #include "Map.hpp"
 #include "Solver.hpp"
 #include "common.hpp"
@@ -8,7 +7,7 @@
 static Agent set_agent(char name, const Node start, const Node goal) {
   Agent agent(name);       // set agnet's name
   agent.set_start(start);  // set agent's start position and push it in the path
-  agent.set_goal(goal);    // ste goal position
+  agent.set_goal(goal);    // set goal position
   return (agent);
 }
 
@@ -26,7 +25,7 @@ int main() {
        If you wish to create the map with obstacles, just uncomment
         following code.It means that map will 8 * 16 and with 30% of obstacles
   *****************************************************************************/
-  // Map map(8, 20, 20);
+  // Map map(8, 20, 30);
 
   /****************************************************************************
         OK, now let's create few agents (robots/cars, whatever you want)
@@ -73,11 +72,12 @@ int main() {
   auto list_filling = [&agent_list, &map](list<Agent>& list) {
     for (auto& agent : list) {
       agent_list.push_back(&agent);
+
+      // if the agent didn't find the distanation.
       if (!get_true_distance_heuristic(agent, map, agent.get_start())) {
         cerr << "Agent " << agent.get_name()
              << " failed at searching requested location!\n";
-        getchar();
-        exit(-1);
+        exit(getchar());
       }
     }
   };
@@ -111,18 +111,19 @@ int main() {
     }
 
     /**************************************************************************************************
-        There we starting the main computational action of the program
-        Let me explain a little bit.
+			There we starting the
+			main computational action of the program Let me explain a little
+			bit.
 
-        Time is not time like min or sec. Time is unit to
-        represent a frame, a step for all agents. below, I used a vector.
-        space_time_map[0] means at the begining. space_time_map[7] means after 7
-        steps, at step 8 or the end of current window, where are the agents
-    located on the map. say if at time 5, 'A' is located at node (3,4). how to
-    capture 'A'? space_time_map[4][{3,4}] ; I hope you got the idea, the syntax
-    may be wrong. notice that, one node, one agent, it is not allowed to have
-    multiple agents sitting at one node. Now I hope that you know what is
-    space_time_map, and what I mean by time.
+			Time is not time like
+			min or sec. Time is unit to represent a frame, a step for all
+			agents. below, I used a vector. space_time_map[0] means at the begining.
+			space_time_map[7] means after 7 steps, at step 8 or the end of current
+			window, where are the agents located on the map. say if at time 5, 'A' is
+			located at node (3,4). how to capture 'A'? space_time_map[4][{3,4}] ; I hope
+			you got the idea, the syntax may be wrong. notice that, one node, one agent,
+			it is not allowed to have multiple agents sitting at one node. Now I hope
+			that you know what is space_time_map, and what I mean by time.
     ***************************************************************************************************/
     vector<unordered_map<Node, Agent*>> space_time_map(WINDOW_SIZE);
     for (auto agent : agent_list) {

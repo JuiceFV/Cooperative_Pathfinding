@@ -68,7 +68,6 @@ void Map::allocate_map(uint obstacle_percentage) {
 
 uint Map::get_height() const { return (height); }
 uint Map::get_width() const { return (width); }
-uint Map::get_square() const { return (square); }
 char** Map::get_map_data() const { return (map_data); }
 void Map::get_obstacles(unordered_map<Node, char>& m) { m = obstacles; }
 
@@ -93,18 +92,15 @@ bool Map::is_obstacle(const Node& n) {
   return ((map_data[n.y][n.x] == '#') ? true : false);
 }
 
-void Map::print_map() {
-  for (uint y = 0; y < height; y++) {
-    for (uint x = 0; x < width; x++) {
-      Node node = {x, y};
-      if (is_obstacle(node)) {
-        cout << "#\t";
-        continue;
-      }
-      cout << '\t';
-    }
-    cout << endl;
-  }
+void Map::get_neighbors(const Node& node, vector<Node>& neighbors) {
+  uint x = node.x;
+  uint y = node.y;
+  neighbors = {
+      {x, y - 1, numeric_limits<uint>::max()},
+      {x - 1, y, numeric_limits<uint>::max()},
+      {x + 1, y, numeric_limits<uint>::max()},
+      {x, y + 1, numeric_limits<uint>::max()},
+  };
 }
 
 void Map::print_map_with_agents(const unordered_map<Node, Agent*>& m) {
@@ -127,40 +123,6 @@ void Map::print_map_with_agents(const unordered_map<Node, Agent*>& m) {
   cout << endl;
 }
 
-void Map::print_agent_path(const Agent& agent, const vector<Node>& nodes) {
-  for (Node node : nodes) map_data[node.y][node.x] = agent.get_name();
-
-  for (int i = 0; i < height; i++) {
-    for (int j = 0; j < width; j++) cout << map_data[i][j];
-    cout << endl;
-  }
-}
-
-void Map::get_neighbors(const Node& node, vector<Node>& neighbors) {
-  uint x = node.x;
-  uint y = node.y;
-  neighbors = {
-      {x, y - 1, numeric_limits<uint>::max()},
-      {x - 1, y, numeric_limits<uint>::max()},
-      {x + 1, y, numeric_limits<uint>::max()},
-      {x, y + 1, numeric_limits<uint>::max()},
-  };
-}
-
-void Map::get_clean_neighbors(const Node& node, vector<Node>& nodes) {
-  uint x = node.x;
-  uint y = node.y;
-  Node node_neighbor;
-  node_neighbor = {x, y - 1};
-  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
-  node_neighbor = {x - 1, y};
-  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
-  node_neighbor = {x + 1, y};
-  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
-  node_neighbor = {x, y + 1};
-  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
-}
-
 void Map::update_map(const vector<Agent>& agent_list) {
   for (auto const& agent : agent_list) {
     const auto& node = agent.get_current_node();
@@ -178,3 +140,44 @@ Map::~Map() {
     delete[] map_data;
   }
 }
+
+#if defined(UNUSEFUL)
+uint Map::get_square() const { return (square); }
+
+void Map::print_map() {
+  for (uint y = 0; y < height; y++) {
+    for (uint x = 0; x < width; x++) {
+      Node node = {x, y};
+      if (is_obstacle(node)) {
+        cout << "#\t";
+        continue;
+      }
+      cout << '\t';
+    }
+    cout << endl;
+  }
+}
+
+void Map::print_agent_path(const Agent& agent, const vector<Node>& nodes) {
+  for (Node node : nodes) map_data[node.y][node.x] = agent.get_name();
+
+  for (int i = 0; i < height; i++) {
+    for (int j = 0; j < width; j++) cout << map_data[i][j];
+    cout << endl;
+  }
+}
+
+void Map::get_clean_neighbors(const Node& node, vector<Node>& nodes) {
+  uint x = node.x;
+  uint y = node.y;
+  Node node_neighbor;
+  node_neighbor = {x, y - 1};
+  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
+  node_neighbor = {x - 1, y};
+  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
+  node_neighbor = {x + 1, y};
+  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
+  node_neighbor = {x, y + 1};
+  if (!is_obstacle(node_neighbor)) nodes.push_back(move(node_neighbor));
+}
+#endif

@@ -1,15 +1,26 @@
 # Cooperative Pathfinding Version 0.1
-Path-finding is one of the basic problems in the field of artificial intelligence and computer science in general. In the most basic variant, the task is to find a path for an agent through a given graph, so that the agent moves from vertex to vertex along the edges of the graph and ends in a specified goal vertex. 
-A natural extension of the basic path-finding problem is multi-agent pathfinding. In this problem, we are given multiple agents, each with its own goal, and the task is to again guide them toward their goals along the edges of a given graph. Agents have knowledge of each other’s plans, which allows them to cooperate. The amount of cooperation required between agents depends on the problem instance, and it can vary from very high on instances where the number of agents is close to the number of available vertices to very low on instances where the number of agents is small relative to the size of the graph and there is enough space between the agents.
-![version 0.1](https://user-images.githubusercontent.com/35202460/69015051-4332aa80-09a1-11ea-991c-bcbe32d7ec6e.gif)
+*Path-finding is one of the basic problems in the field of artificial intelligence and computer science in general. In the most basic variant, the task is to find a path for an agent through a given graph, so that the agent moves from vertex to vertex along the edges of the graph and ends in a specified goal vertex. 
+A natural extension of the basic path-finding problem is multi-agent pathfinding. In this problem, we are given multiple agents, each with its own goal, and the task is to again guide them toward their goals along the edges of a given graph. Agents have knowledge of each others plans, which allows them to cooperate. The amount of cooperation required between agents depends on the problem instance, and it can vary from very high on instances where the number of agents is close to the number of available vertices to very low on instances where the number of agents is small relative to the size of the graph and there is enough space between the agents.*
+## Version Ttable
+### Version 0.1
+In this version I've implemented the WHCA* (Windowed Hierarchical Cooperative A*) pathfinding.
+- You can change the map size and number/configuration of the agents only through the code. 
+- Agents can move only horizontal and vertical
+- Agents have the same velocity 
+- If some agent reached the goal, it will count as an empty cell. (but it easy fixable) 
+- GUI - cmd/Terminal
+![Version 0.1](https://user-images.githubusercontent.com/35202460/69077750-59934180-0a47-11ea-902b-53fa4e2dacba.gif)
 
 
 ## Table of Content
 - [Cooperative Pathfinding Version 0.1](#cooperative-pathfinding-version-01)
+	- [Version Ttable](#version-ttable)
+		- [Version 0.1](#version-01)
 	- [Table of Content](#table-of-content)
 	- [Instalation](#instalation)
 		- [Prerequirements](#prerequirements)
 		- [Install](#install)
+- [TODO](#todo)
 ## Instalation
 ### Prerequirements
 For the build creation from the sources, you will needed in CMake. This util will configure a project structure for any IDE. You can download it [here](https://cmake.org/download/).
@@ -40,6 +51,12 @@ For the build creation from the sources, you will needed in CMake. This util wil
     - Just use this command. And as in the previous step you can change the build type
 		> \> cmake [optional: -DCMAKE_BUILD_TYPE=Debug] ..
 - CMake will configure the project in the "build" and you can work with it.
+
+# TODO
+- Create the parser:
+  - The Map.txt parser
+  - The JSON parser
+- Look for any errors
 	
 
 		

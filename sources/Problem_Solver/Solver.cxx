@@ -143,10 +143,11 @@ void print_space_map(const vector<unordered_map<Node, Agent*>>& space_map,
   for (auto i = 0; i < WINDOW_SIZE; i++) {
     cout << "\nspace_map at time [" << i << "]\n";
     map.print_map_with_agents(space_map[i]);
-    _sleep(1000);
 #if defined(_MSC_VER) || defined(_WIN32)
+	_sleep(1000);
     system("cls");
 #else
+	system("sleep 1");
 	system("clear");
 #endif
   }

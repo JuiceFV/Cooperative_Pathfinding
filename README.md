@@ -9,6 +9,7 @@ In this version I've implemented the WHCA* (Windowed Hierarchical Cooperative A*
 - Agents have the same velocity 
 - If some agent reached the goal, it will count as an empty cell. (but it easy fixable) 
 - GUI - cmd/Terminal
+
 ![Version 0.1](https://user-images.githubusercontent.com/35202460/69077750-59934180-0a47-11ea-902b-53fa4e2dacba.gif)
 
 

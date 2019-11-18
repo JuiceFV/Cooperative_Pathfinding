@@ -14,7 +14,6 @@ class Map {
 
   uint get_height() const;
   uint get_width() const;
-  uint get_square() const;
 
   char** get_map_data() const;
 
@@ -24,14 +23,18 @@ class Map {
   bool is_obstacle(const Node& n);
 
   void get_neighbors(const Node& n, vector<Node>& Neighbors);
-  void get_clean_neighbors(const Node& node, vector<Node>& nodes);
 
   void update_map(const vector<Agent>& agent_list);
 
-  void print_map();
   void print_map_with_agents(const unordered_map<Node, Agent*>& map);
+
+#if defined(UNUSEFUL)
   void print_agent_path(const Agent& agent, const vector<Node>& path);
+  void print_map();
+  void get_clean_neighbors(const Node& node, vector<Node>& nodes);
+  uint get_square() const;
   // void print_time_space_map(const uint& time);
+#endif
 
   ~Map();
 

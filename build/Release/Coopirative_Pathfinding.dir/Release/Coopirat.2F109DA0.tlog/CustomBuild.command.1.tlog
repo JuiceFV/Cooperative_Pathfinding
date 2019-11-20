@@ -1,0 +1,10 @@
+^D:\PROJECTS\COOP_PATHFINDING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Coop_Pathfinding -BD:/Projects/Coop_Pathfinding/build/Release --check-stamp-file D:/Projects/Coop_Pathfinding/build/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

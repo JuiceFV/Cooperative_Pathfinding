@@ -23,9 +23,9 @@ int main() {
 
   /****************************************************************************
        If you wish to create the map with obstacles, just uncomment
-        following code.It means that map will 8 * 16 and with 30% of obstacles
+        following code.It means that map will 8 * 16 and with 20% of obstacles
   *****************************************************************************/
-  // Map map(8, 20, 30);
+  // Map map(8, 20, 20);
 
   /****************************************************************************
         OK, now let's create few agents (robots/cars, whatever you want)
@@ -38,7 +38,7 @@ int main() {
         |#|A|_|_|_|_|_|_|B|#|	is equal 8 * 16 = 128.
         |#|_|_|_|_|_|_|_|_|#|	A:					B:
         |#|_|_|_|_|_|_|_|_|#|	{					{
-        |#|_|_|_|_|_|_|_|_|#|		name: 'A' name: 'B;
+        |#|_|_|_|_|_|_|_|_|#|		name: 'A'			name: 'B;
         |#|_|_|_|_|_|_|_|_|#|		start: [1,1]		start: [8, 1]
         |#|_|_|_|_|_|_|_|_|#|		goal:  [8,1]		goal: [1, 1]
         |#|_|_|_|_|_|_|_|_|#|	}					}

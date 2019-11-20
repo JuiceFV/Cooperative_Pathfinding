@@ -21,6 +21,8 @@ include(cmake/setflags.cmake)
 # set directory variable with problem solver sources
 set(PS_SRCDIR "sources/Problem_Solver/")
 
+#set(MP_SRCDIR "sources/Map_Parser/")
+
 # Set sources variables
 set(${PROJECT_NAME}_main "sources/main.cxx")
 set(${PROJECT_NAME}_sources "${PS_SRCDIR}Agent.cxx" "${PS_SRCDIR}Map.cxx" "${PS_SRCDIR}Solver.cxx")

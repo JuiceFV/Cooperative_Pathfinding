@@ -1,0 +1,10 @@
+^D:\PROJECTS\COOP_PATHFINDING\BUILD\RELEASE\CMAKEFILES\025D7BC1DF5D5E00560E94085FB65739\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Coop_Pathfinding -BD:/Projects/Coop_Pathfinding/build/Release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/Coop_Pathfinding/build/Release/Coopirative_Pathfinding.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

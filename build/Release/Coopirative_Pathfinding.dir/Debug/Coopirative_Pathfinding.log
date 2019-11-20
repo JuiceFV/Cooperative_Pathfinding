@@ -1,0 +1,938 @@
+﻿  Building Custom Rule D:/Projects/Coop_Pathfinding/CMakeLists.txt
+  main.cxx
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(59,1) : warning C4820: Agent: "7"-байтовые поля добавлены после данные-член "Agent::name"
+D:\Projects\Coop_Pathfinding\sources\main.cxx(83,1) : warning C4626: "main::<lambda_1>": оператор присваивания неявно определен как удаленный
+D:\Projects\Coop_Pathfinding\sources\main.cxx(91,36) : warning C4267: инициализация: преобразование из "size_t" в "uint"; возможна потеря данных
+D:\Projects\Coop_Pathfinding\sources\main.cxx(101,24) : warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\Coop_Pathfinding\sources\main.cxx(102,10) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(305,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(310,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(315,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(320,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(325,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(330,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(808,51) : warning C4514: _chgsignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(815,51) : warning C4514: _copysignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(869,51) : warning C4514: _hypotl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(359,17) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(364,22) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(369,19) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(374,20) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(35,44) : warning C4514: memcpy_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(64,44) : warning C4514: memmove_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memory.h(100,28) : warning C4514: memchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(166,38) : warning C4514: wcsnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(247,40) : warning C4514: _wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(261,35) : warning C4514: wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(539,31) : warning C4514: wcschr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(545,31) : warning C4514: wcspbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(551,31) : warning C4514: wcsrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(558,31) : warning C4514: wcsstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(371,38) : warning C4514: strnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(504,28) : warning C4514: strchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(510,28) : warning C4514: strpbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(516,28) : warning C4514: strrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(522,28) : warning C4514: strstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(311,37) : warning C4514: vfwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(342,41) : warning C4514: vfwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(373,37) : warning C4514: _vfwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(387,37) : warning C4514: _vwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(401,37) : warning C4514: vwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(414,37) : warning C4514: _vwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(430,41) : warning C4514: vwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(445,37) : warning C4514: _vwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(459,37) : warning C4514: _vwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(472,37) : warning C4514: _fwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(491,37) : warning C4514: fwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(509,37) : warning C4514: _fwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(530,41) : warning C4514: fwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(550,37) : warning C4514: _fwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(569,37) : warning C4514: _fwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(587,37) : warning C4514: _wprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(605,37) : warning C4514: wprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(622,37) : warning C4514: _wprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(642,41) : warning C4514: wprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(661,37) : warning C4514: _wprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(679,37) : warning C4514: _wprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(728,37) : warning C4514: vfwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(761,41) : warning C4514: vfwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(776,37) : warning C4514: _vwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(790,37) : warning C4514: vwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(803,37) : warning C4514: _vwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(819,41) : warning C4514: vwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(834,37) : warning C4514: _fwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(853,37) : warning C4514: fwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(871,37) : warning C4514: _fwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(892,41) : warning C4514: fwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(912,37) : warning C4514: _wscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(930,37) : warning C4514: wscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(947,37) : warning C4514: _wscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(967,41) : warning C4514: wscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1094,37) : warning C4514: _vsnwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1122,37) : warning C4514: _vsnwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1171,37) : warning C4514: _vswprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1223,37) : warning C4514: _vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1276,41) : warning C4514: vswprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1323,37) : warning C4514: _vswprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1358,37) : warning C4514: _vscwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1391,37) : warning C4514: _vscwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1405,37) : warning C4514: __swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1425,37) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1446,37) : warning C4514: _swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1465,37) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1508,37) : warning C4514: _swprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1530,41) : warning C4514: swprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1559,37) : warning C4514: _swprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1580,37) : warning C4514: _swprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1600,37) : warning C4514: _swprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1621,37) : warning C4514: _swprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1641,37) : warning C4514: _snwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1667,37) : warning C4514: _snwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1692,37) : warning C4514: _snwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1714,37) : warning C4514: _snwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1742,37) : warning C4514: _scwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1761,37) : warning C4514: _scwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1779,37) : warning C4514: _scwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1798,37) : warning C4514: _scwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1822,24) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1837,34) : warning C4514: vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1848,24) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1863,34) : warning C4514: _vswprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1921,37) : warning C4514: vswscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1956,41) : warning C4514: vswscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2019,37) : warning C4514: _swscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2039,37) : warning C4514: swscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2058,37) : warning C4514: _swscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2080,41) : warning C4514: swscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2101,37) : warning C4514: _snwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2127,37) : warning C4514: _snwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2152,37) : warning C4514: _snwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2173,37) : warning C4514: _snwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(648,37) : warning C4514: vfprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(679,41) : warning C4514: vfprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(710,37) : warning C4514: _vfprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(724,37) : warning C4514: _vprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(738,37) : warning C4514: vprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(751,37) : warning C4514: _vprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(767,41) : warning C4514: vprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(782,37) : warning C4514: _vprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(796,37) : warning C4514: _vprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(809,37) : warning C4514: _fprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(828,37) : warning C4514: fprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(852,37) : warning C4514: _fprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(873,41) : warning C4514: fprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(893,37) : warning C4514: _fprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(912,37) : warning C4514: _fprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(930,37) : warning C4514: _printf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948,37) : warning C4514: printf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(965,37) : warning C4514: _printf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(985,41) : warning C4514: printf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1004,37) : warning C4514: _printf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1022,37) : warning C4514: _printf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1070,37) : warning C4514: vfscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1104,41) : warning C4514: vfscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1120,37) : warning C4514: _vscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1134,37) : warning C4514: vscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1147,37) : warning C4514: _vscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1163,41) : warning C4514: vscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1178,37) : warning C4514: _fscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197,37) : warning C4514: fscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1215,37) : warning C4514: _fscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1236,41) : warning C4514: fscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1256,37) : warning C4514: _scanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274,37) : warning C4514: scanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1291,37) : warning C4514: _scanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1311,41) : warning C4514: scanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469,37) : warning C4514: vsprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1510,41) : warning C4514: vsprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1557,37) : warning C4514: _vsprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1595,37) : warning C4514: _vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1623,41) : warning C4514: vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1668,37) : warning C4514: _vscprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1733,37) : warning C4514: _vsnprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1749,37) : warning C4514: _sprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774,37) : warning C4514: sprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1810,37) : warning C4514: _sprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833,41) : warning C4710: int sprintf_s(char *const ,const size_t,const char *const ,...): функция не является встроенной
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833) : message : см. объявление "sprintf_s"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1862,37) : warning C4514: _sprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1883,37) : warning C4514: _sprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1903,37) : warning C4514: _snprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1940,37) : warning C4514: snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961,37) : warning C4514: _snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1991,37) : warning C4514: _snprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2012,37) : warning C4514: _snprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2032,37) : warning C4514: _snprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2054,37) : warning C4514: _snprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2082,37) : warning C4514: _scprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2100,37) : warning C4514: _scprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2117,37) : warning C4514: _scprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2135,37) : warning C4514: _scprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2183,37) : warning C4514: vsscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2244,37) : warning C4514: _sscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263,37) : warning C4514: sscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2281,37) : warning C4514: _sscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2302,41) : warning C4514: sscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2330,37) : warning C4514: _snscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2354,37) : warning C4514: _snscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2378,37) : warning C4514: _snscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2402,37) : warning C4514: _snscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(100,37) : warning C4514: _vcwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(127,37) : warning C4514: _vcwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(154,37) : warning C4514: _vcwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(167,37) : warning C4514: _cwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(185,37) : warning C4514: _cwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(202,37) : warning C4514: _cwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(220,37) : warning C4514: _cwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(237,37) : warning C4514: _cwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(255,37) : warning C4514: _cwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(303,37) : warning C4514: _vcwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(335,37) : warning C4514: _vcwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(348,37) : warning C4514: _cwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(371,37) : warning C4514: _cwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(393,37) : warning C4514: _cwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(411,37) : warning C4514: _cwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(225,26) : warning C4514: _wopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(238,26) : warning C4514: _wsopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(185,45) : warning C4514: _wctime: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(192,43) : warning C4514: _wctime_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(234,39) : warning C4514: fstat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(239,39) : warning C4514: stat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(180,28) : warning C4514: fwide: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(189,28) : warning C4514: mbsinit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(209,28) : warning C4514: wmemcmp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(268,48) : warning C4514: wmemchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(81,24) : warning C4514: __acrt_locale_get_ctype_array_value: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(165,37) : warning C4514: __ascii_iswalpha: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(170,37) : warning C4514: __ascii_iswdigit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(175,37) : warning C4514: __ascii_towlower: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(180,37) : warning C4514: __ascii_towupper: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(234,28) : warning C4514: _ischartype_l: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(26,8) : warning C4514: Node::operator !=: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(28,24) : warning C4514: operator <<: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(39,8) : warning C4514: compare_node_f_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+  Agent.cxx
+D:\Projects\Coop_Pathfinding\includes\common.hpp(45,8) : warning C4514: compare_node_g_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(59,1) : warning C4820: Agent: "7"-байтовые поля добавлены после данные-член "Agent::name"
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(45,8) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(46,33) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(49,10) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(54,39) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(75,1) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(76,1) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(118,1) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(119,1) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(110,10) : warning C4189: current_best_g_score: локальная переменная инициализирована, но не использована
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(51,16) : warning C4189: another_agent: локальная переменная инициализирована, но не использована
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(64,16) : warning C4189: current_best_g_score: локальная переменная инициализирована, но не использована
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(305,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(310,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(315,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(320,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(325,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(330,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(808,51) : warning C4514: _chgsignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(815,51) : warning C4514: _copysignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(869,51) : warning C4514: _hypotl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(359,17) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(364,22) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(369,19) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(374,20) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(35,44) : warning C4514: memcpy_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(64,44) : warning C4514: memmove_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memory.h(100,28) : warning C4514: memchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(166,38) : warning C4514: wcsnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(247,40) : warning C4514: _wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(261,35) : warning C4514: wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(539,31) : warning C4514: wcschr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(545,31) : warning C4514: wcspbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(551,31) : warning C4514: wcsrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(558,31) : warning C4514: wcsstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(371,38) : warning C4514: strnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(504,28) : warning C4514: strchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(510,28) : warning C4514: strpbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(516,28) : warning C4514: strrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(522,28) : warning C4514: strstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(311,37) : warning C4514: vfwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(342,41) : warning C4514: vfwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(373,37) : warning C4514: _vfwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(387,37) : warning C4514: _vwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(401,37) : warning C4514: vwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(414,37) : warning C4514: _vwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(430,41) : warning C4514: vwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(445,37) : warning C4514: _vwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(459,37) : warning C4514: _vwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(472,37) : warning C4514: _fwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(491,37) : warning C4514: fwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(509,37) : warning C4514: _fwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(530,41) : warning C4514: fwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(550,37) : warning C4514: _fwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(569,37) : warning C4514: _fwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(587,37) : warning C4514: _wprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(605,37) : warning C4514: wprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(622,37) : warning C4514: _wprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(642,41) : warning C4514: wprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(661,37) : warning C4514: _wprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(679,37) : warning C4514: _wprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(728,37) : warning C4514: vfwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(761,41) : warning C4514: vfwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(776,37) : warning C4514: _vwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(790,37) : warning C4514: vwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(803,37) : warning C4514: _vwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(819,41) : warning C4514: vwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(834,37) : warning C4514: _fwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(853,37) : warning C4514: fwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(871,37) : warning C4514: _fwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(892,41) : warning C4514: fwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(912,37) : warning C4514: _wscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(930,37) : warning C4514: wscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(947,37) : warning C4514: _wscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(967,41) : warning C4514: wscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1094,37) : warning C4514: _vsnwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1122,37) : warning C4514: _vsnwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1171,37) : warning C4514: _vswprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1223,37) : warning C4514: _vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1276,41) : warning C4514: vswprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1323,37) : warning C4514: _vswprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1358,37) : warning C4514: _vscwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1391,37) : warning C4514: _vscwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1405,37) : warning C4514: __swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1425,37) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1446,37) : warning C4514: _swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1465,37) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1508,37) : warning C4514: _swprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1530,41) : warning C4514: swprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1559,37) : warning C4514: _swprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1580,37) : warning C4514: _swprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1600,37) : warning C4514: _swprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1621,37) : warning C4514: _swprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1641,37) : warning C4514: _snwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1667,37) : warning C4514: _snwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1692,37) : warning C4514: _snwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1714,37) : warning C4514: _snwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1742,37) : warning C4514: _scwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1761,37) : warning C4514: _scwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1779,37) : warning C4514: _scwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1798,37) : warning C4514: _scwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1822,24) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1837,34) : warning C4514: vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1848,24) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1863,34) : warning C4514: _vswprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1921,37) : warning C4514: vswscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1956,41) : warning C4514: vswscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2019,37) : warning C4514: _swscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2039,37) : warning C4514: swscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2058,37) : warning C4514: _swscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2080,41) : warning C4514: swscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2101,37) : warning C4514: _snwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2127,37) : warning C4514: _snwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2152,37) : warning C4514: _snwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2173,37) : warning C4514: _snwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(648,37) : warning C4514: vfprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(679,41) : warning C4514: vfprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(710,37) : warning C4514: _vfprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(724,37) : warning C4514: _vprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(738,37) : warning C4514: vprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(751,37) : warning C4514: _vprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(767,41) : warning C4514: vprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(782,37) : warning C4514: _vprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(796,37) : warning C4514: _vprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(809,37) : warning C4514: _fprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(828,37) : warning C4514: fprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(852,37) : warning C4514: _fprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(873,41) : warning C4514: fprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(893,37) : warning C4514: _fprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(912,37) : warning C4514: _fprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(930,37) : warning C4514: _printf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948,37) : warning C4514: printf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(965,37) : warning C4514: _printf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(985,41) : warning C4514: printf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1004,37) : warning C4514: _printf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1022,37) : warning C4514: _printf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1070,37) : warning C4514: vfscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1104,41) : warning C4514: vfscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1120,37) : warning C4514: _vscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1134,37) : warning C4514: vscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1147,37) : warning C4514: _vscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1163,41) : warning C4514: vscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1178,37) : warning C4514: _fscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197,37) : warning C4514: fscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1215,37) : warning C4514: _fscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1236,41) : warning C4514: fscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1256,37) : warning C4514: _scanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274,37) : warning C4514: scanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1291,37) : warning C4514: _scanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1311,41) : warning C4514: scanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469,37) : warning C4514: vsprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1510,41) : warning C4514: vsprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1557,37) : warning C4514: _vsprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1595,37) : warning C4514: _vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1623,41) : warning C4514: vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1668,37) : warning C4514: _vscprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1733,37) : warning C4514: _vsnprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1749,37) : warning C4514: _sprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774,37) : warning C4514: sprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1810,37) : warning C4514: _sprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833,41) : warning C4710: int sprintf_s(char *const ,const size_t,const char *const ,...): функция не является встроенной
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833) : message : см. объявление "sprintf_s"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1862,37) : warning C4514: _sprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1883,37) : warning C4514: _sprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1903,37) : warning C4514: _snprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1940,37) : warning C4514: snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961,37) : warning C4514: _snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1991,37) : warning C4514: _snprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2012,37) : warning C4514: _snprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2032,37) : warning C4514: _snprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2054,37) : warning C4514: _snprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2082,37) : warning C4514: _scprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2100,37) : warning C4514: _scprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2117,37) : warning C4514: _scprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2135,37) : warning C4514: _scprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2183,37) : warning C4514: vsscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2244,37) : warning C4514: _sscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263,37) : warning C4514: sscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2281,37) : warning C4514: _sscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2302,41) : warning C4514: sscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2330,37) : warning C4514: _snscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2354,37) : warning C4514: _snscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2378,37) : warning C4514: _snscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2402,37) : warning C4514: _snscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(100,37) : warning C4514: _vcwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(127,37) : warning C4514: _vcwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(154,37) : warning C4514: _vcwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(167,37) : warning C4514: _cwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(185,37) : warning C4514: _cwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(202,37) : warning C4514: _cwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(220,37) : warning C4514: _cwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(237,37) : warning C4514: _cwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(255,37) : warning C4514: _cwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(303,37) : warning C4514: _vcwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(335,37) : warning C4514: _vcwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(348,37) : warning C4514: _cwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(371,37) : warning C4514: _cwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(393,37) : warning C4514: _cwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(411,37) : warning C4514: _cwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(225,26) : warning C4514: _wopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(238,26) : warning C4514: _wsopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(185,45) : warning C4514: _wctime: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(192,43) : warning C4514: _wctime_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(234,39) : warning C4514: fstat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(239,39) : warning C4514: stat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(180,28) : warning C4514: fwide: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(189,28) : warning C4514: mbsinit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(209,28) : warning C4514: wmemcmp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(268,48) : warning C4514: wmemchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(81,24) : warning C4514: __acrt_locale_get_ctype_array_value: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(165,37) : warning C4514: __ascii_iswalpha: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(170,37) : warning C4514: __ascii_iswdigit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(175,37) : warning C4514: __ascii_towlower: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(180,37) : warning C4514: __ascii_towupper: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(234,28) : warning C4514: _ischartype_l: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(26,8) : warning C4514: Node::operator !=: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(28,24) : warning C4514: operator <<: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(39,8) : warning C4514: compare_node_f_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(45,8) : warning C4514: compare_node_g_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+  Map.cxx
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(17,3) : warning C4514: Agent::Agent: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(59,1) : warning C4820: Agent: "7"-байтовые поля добавлены после данные-член "Agent::name"
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(34,23) : warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(36,27) : warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(37,26) : warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(37,53) : warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(55,32) : warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(135,24) : warning C4018: <: несоответствие типов со знаком и без знака
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(305,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(310,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(315,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(320,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(325,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(330,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(808,51) : warning C4514: _chgsignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(815,51) : warning C4514: _copysignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(869,51) : warning C4514: _hypotl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(359,17) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(364,22) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(369,19) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(374,20) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(35,44) : warning C4514: memcpy_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(64,44) : warning C4514: memmove_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memory.h(100,28) : warning C4514: memchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(166,38) : warning C4514: wcsnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(247,40) : warning C4514: _wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(261,35) : warning C4514: wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(539,31) : warning C4514: wcschr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(545,31) : warning C4514: wcspbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(551,31) : warning C4514: wcsrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(558,31) : warning C4514: wcsstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(371,38) : warning C4514: strnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(504,28) : warning C4514: strchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(510,28) : warning C4514: strpbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(516,28) : warning C4514: strrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(522,28) : warning C4514: strstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(311,37) : warning C4514: vfwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(342,41) : warning C4514: vfwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(373,37) : warning C4514: _vfwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(387,37) : warning C4514: _vwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(401,37) : warning C4514: vwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(414,37) : warning C4514: _vwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(430,41) : warning C4514: vwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(445,37) : warning C4514: _vwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(459,37) : warning C4514: _vwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(472,37) : warning C4514: _fwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(491,37) : warning C4514: fwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(509,37) : warning C4514: _fwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(530,41) : warning C4514: fwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(550,37) : warning C4514: _fwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(569,37) : warning C4514: _fwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(587,37) : warning C4514: _wprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(605,37) : warning C4514: wprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(622,37) : warning C4514: _wprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(642,41) : warning C4514: wprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(661,37) : warning C4514: _wprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(679,37) : warning C4514: _wprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(728,37) : warning C4514: vfwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(761,41) : warning C4514: vfwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(776,37) : warning C4514: _vwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(790,37) : warning C4514: vwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(803,37) : warning C4514: _vwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(819,41) : warning C4514: vwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(834,37) : warning C4514: _fwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(853,37) : warning C4514: fwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(871,37) : warning C4514: _fwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(892,41) : warning C4514: fwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(912,37) : warning C4514: _wscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(930,37) : warning C4514: wscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(947,37) : warning C4514: _wscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(967,41) : warning C4514: wscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1094,37) : warning C4514: _vsnwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1122,37) : warning C4514: _vsnwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1171,37) : warning C4514: _vswprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1223,37) : warning C4514: _vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1276,41) : warning C4514: vswprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1323,37) : warning C4514: _vswprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1358,37) : warning C4514: _vscwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1391,37) : warning C4514: _vscwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1405,37) : warning C4514: __swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1425,37) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1446,37) : warning C4514: _swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1465,37) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1508,37) : warning C4514: _swprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1530,41) : warning C4514: swprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1559,37) : warning C4514: _swprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1580,37) : warning C4514: _swprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1600,37) : warning C4514: _swprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1621,37) : warning C4514: _swprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1641,37) : warning C4514: _snwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1667,37) : warning C4514: _snwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1692,37) : warning C4514: _snwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1714,37) : warning C4514: _snwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1742,37) : warning C4514: _scwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1761,37) : warning C4514: _scwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1779,37) : warning C4514: _scwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1798,37) : warning C4514: _scwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1822,24) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1837,34) : warning C4514: vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1848,24) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1863,34) : warning C4514: _vswprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1921,37) : warning C4514: vswscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1956,41) : warning C4514: vswscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2019,37) : warning C4514: _swscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2039,37) : warning C4514: swscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2058,37) : warning C4514: _swscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2080,41) : warning C4514: swscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2101,37) : warning C4514: _snwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2127,37) : warning C4514: _snwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2152,37) : warning C4514: _snwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2173,37) : warning C4514: _snwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(648,37) : warning C4514: vfprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(679,41) : warning C4514: vfprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(710,37) : warning C4514: _vfprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(724,37) : warning C4514: _vprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(738,37) : warning C4514: vprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(751,37) : warning C4514: _vprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(767,41) : warning C4514: vprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(782,37) : warning C4514: _vprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(796,37) : warning C4514: _vprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(809,37) : warning C4514: _fprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(828,37) : warning C4514: fprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(852,37) : warning C4514: _fprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(873,41) : warning C4514: fprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(893,37) : warning C4514: _fprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(912,37) : warning C4514: _fprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(930,37) : warning C4514: _printf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948,37) : warning C4514: printf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(965,37) : warning C4514: _printf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(985,41) : warning C4514: printf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1004,37) : warning C4514: _printf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1022,37) : warning C4514: _printf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1070,37) : warning C4514: vfscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1104,41) : warning C4514: vfscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1120,37) : warning C4514: _vscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1134,37) : warning C4514: vscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1147,37) : warning C4514: _vscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1163,41) : warning C4514: vscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1178,37) : warning C4514: _fscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197,37) : warning C4514: fscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1215,37) : warning C4514: _fscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1236,41) : warning C4514: fscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1256,37) : warning C4514: _scanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274,37) : warning C4514: scanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1291,37) : warning C4514: _scanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1311,41) : warning C4514: scanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469,37) : warning C4514: vsprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1510,41) : warning C4514: vsprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1557,37) : warning C4514: _vsprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1595,37) : warning C4514: _vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1623,41) : warning C4514: vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1668,37) : warning C4514: _vscprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1733,37) : warning C4514: _vsnprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1749,37) : warning C4514: _sprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774,37) : warning C4514: sprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1810,37) : warning C4514: _sprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833,41) : warning C4710: int sprintf_s(char *const ,const size_t,const char *const ,...): функция не является встроенной
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833) : message : см. объявление "sprintf_s"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1862,37) : warning C4514: _sprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1883,37) : warning C4514: _sprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1903,37) : warning C4514: _snprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1940,37) : warning C4514: snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961,37) : warning C4514: _snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1991,37) : warning C4514: _snprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2012,37) : warning C4514: _snprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2032,37) : warning C4514: _snprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2054,37) : warning C4514: _snprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2082,37) : warning C4514: _scprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2100,37) : warning C4514: _scprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2117,37) : warning C4514: _scprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2135,37) : warning C4514: _scprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2183,37) : warning C4514: vsscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2244,37) : warning C4514: _sscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263,37) : warning C4514: sscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2281,37) : warning C4514: _sscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2302,41) : warning C4514: sscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2330,37) : warning C4514: _snscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2354,37) : warning C4514: _snscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2378,37) : warning C4514: _snscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2402,37) : warning C4514: _snscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(100,37) : warning C4514: _vcwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(127,37) : warning C4514: _vcwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(154,37) : warning C4514: _vcwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(167,37) : warning C4514: _cwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(185,37) : warning C4514: _cwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(202,37) : warning C4514: _cwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(220,37) : warning C4514: _cwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(237,37) : warning C4514: _cwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(255,37) : warning C4514: _cwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(303,37) : warning C4514: _vcwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(335,37) : warning C4514: _vcwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(348,37) : warning C4514: _cwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(371,37) : warning C4514: _cwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(393,37) : warning C4514: _cwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(411,37) : warning C4514: _cwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(225,26) : warning C4514: _wopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(238,26) : warning C4514: _wsopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(185,45) : warning C4514: _wctime: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(192,43) : warning C4514: _wctime_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(234,39) : warning C4514: fstat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(239,39) : warning C4514: stat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(180,28) : warning C4514: fwide: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(189,28) : warning C4514: mbsinit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(209,28) : warning C4514: wmemcmp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(268,48) : warning C4514: wmemchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(81,24) : warning C4514: __acrt_locale_get_ctype_array_value: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(165,37) : warning C4514: __ascii_iswalpha: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(170,37) : warning C4514: __ascii_iswdigit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(175,37) : warning C4514: __ascii_towlower: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(180,37) : warning C4514: __ascii_towupper: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(234,28) : warning C4514: _ischartype_l: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(26,8) : warning C4514: Node::operator !=: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(28,24) : warning C4514: operator <<: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(39,8) : warning C4514: compare_node_f_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(45,8) : warning C4514: compare_node_g_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+  Solver.cxx
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(17,3) : warning C4514: Agent::Agent: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(59,1) : warning C4820: Agent: "7"-байтовые поля добавлены после данные-член "Agent::name"
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(11,1) : warning C4365: return: преобразование "int" в "uint", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(99,36) : warning C4365: инициализация: преобразование "int" в "uint", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(136,16) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(145,42) : warning C4365: аргумент: преобразование "int" в "const unsigned __int64", несоответствие типов со знаком и без
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(147,1) : warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1274) : message : см. объявление "_sleep"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365: инициализация: преобразование "_Ty" в "_Ty2", несоответствие типов со знаком и без
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:             _Ty2=unsigned int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\include\utility(127,1) : warning C4365:         ]
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const _Kty,_Ty>::pair<Node&,int,0>(_Other1,_Other2 &&) noexcept"
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :         with
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :         [
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Kty=Node,
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Ty=unsigned int,
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Other1=Node &,
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Other2=int
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :         ]
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const _Kty,_Ty>::pair<Node&,int,0>(_Other1,_Other2 &&) noexcept"
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :         with
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :         [
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Kty=Node,
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Ty=unsigned int,
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Other1=Node &,
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :             _Other2=int
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(51) : message :         ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(305,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(310,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(315,32) : warning C4514: signbit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(320,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(325,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(330,31) : warning C4514: _fpcomp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(808,51) : warning C4514: _chgsignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(815,51) : warning C4514: _copysignl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(869,51) : warning C4514: _hypotl: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(359,17) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(364,22) : warning C4514: abs: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(369,19) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(374,20) : warning C4514: div: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(35,44) : warning C4514: memcpy_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(64,44) : warning C4514: memmove_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memory.h(100,28) : warning C4514: memchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(166,38) : warning C4514: wcsnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(247,40) : warning C4514: _wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(261,35) : warning C4514: wcstok: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(539,31) : warning C4514: wcschr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(545,31) : warning C4514: wcspbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(551,31) : warning C4514: wcsrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(558,31) : warning C4514: wcsstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(371,38) : warning C4514: strnlen_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(504,28) : warning C4514: strchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(510,28) : warning C4514: strpbrk: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(516,28) : warning C4514: strrchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(522,28) : warning C4514: strstr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(311,37) : warning C4514: vfwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(342,41) : warning C4514: vfwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(373,37) : warning C4514: _vfwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(387,37) : warning C4514: _vwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(401,37) : warning C4514: vwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(414,37) : warning C4514: _vwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(430,41) : warning C4514: vwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(445,37) : warning C4514: _vwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(459,37) : warning C4514: _vwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(472,37) : warning C4514: _fwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(491,37) : warning C4514: fwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(509,37) : warning C4514: _fwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(530,41) : warning C4514: fwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(550,37) : warning C4514: _fwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(569,37) : warning C4514: _fwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(587,37) : warning C4514: _wprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(605,37) : warning C4514: wprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(622,37) : warning C4514: _wprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(642,41) : warning C4514: wprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(661,37) : warning C4514: _wprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(679,37) : warning C4514: _wprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(728,37) : warning C4514: vfwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(761,41) : warning C4514: vfwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(776,37) : warning C4514: _vwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(790,37) : warning C4514: vwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(803,37) : warning C4514: _vwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(819,41) : warning C4514: vwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(834,37) : warning C4514: _fwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(853,37) : warning C4514: fwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(871,37) : warning C4514: _fwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(892,41) : warning C4514: fwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(912,37) : warning C4514: _wscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(930,37) : warning C4514: wscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(947,37) : warning C4514: _wscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(967,41) : warning C4514: wscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1094,37) : warning C4514: _vsnwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1122,37) : warning C4514: _vsnwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1171,37) : warning C4514: _vswprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1223,37) : warning C4514: _vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1276,41) : warning C4514: vswprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1323,37) : warning C4514: _vswprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1358,37) : warning C4514: _vscwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1391,37) : warning C4514: _vscwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1405,37) : warning C4514: __swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1425,37) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1446,37) : warning C4514: _swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1465,37) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1508,37) : warning C4514: _swprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1530,41) : warning C4514: swprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1559,37) : warning C4514: _swprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1580,37) : warning C4514: _swprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1600,37) : warning C4514: _swprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1621,37) : warning C4514: _swprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1641,37) : warning C4514: _snwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1667,37) : warning C4514: _snwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1692,37) : warning C4514: _snwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1714,37) : warning C4514: _snwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1742,37) : warning C4514: _scwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1761,37) : warning C4514: _scwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1779,37) : warning C4514: _scwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1798,37) : warning C4514: _scwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1822,24) : warning C4514: swprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1837,34) : warning C4514: vswprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1848,24) : warning C4514: _swprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1863,34) : warning C4514: _vswprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1921,37) : warning C4514: vswscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1956,41) : warning C4514: vswscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2019,37) : warning C4514: _swscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2039,37) : warning C4514: swscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2058,37) : warning C4514: _swscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2080,41) : warning C4514: swscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2101,37) : warning C4514: _snwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2127,37) : warning C4514: _snwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2152,37) : warning C4514: _snwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2173,37) : warning C4514: _snwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(648,37) : warning C4514: vfprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(679,41) : warning C4514: vfprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(710,37) : warning C4514: _vfprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(724,37) : warning C4514: _vprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(738,37) : warning C4514: vprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(751,37) : warning C4514: _vprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(767,41) : warning C4514: vprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(782,37) : warning C4514: _vprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(796,37) : warning C4514: _vprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(809,37) : warning C4514: _fprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(828,37) : warning C4514: fprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(852,37) : warning C4514: _fprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(873,41) : warning C4514: fprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(893,37) : warning C4514: _fprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(912,37) : warning C4514: _fprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(930,37) : warning C4514: _printf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948,37) : warning C4514: printf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(965,37) : warning C4514: _printf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(985,41) : warning C4514: printf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1004,37) : warning C4514: _printf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1022,37) : warning C4514: _printf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1070,37) : warning C4514: vfscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1104,41) : warning C4514: vfscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1120,37) : warning C4514: _vscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1134,37) : warning C4514: vscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1147,37) : warning C4514: _vscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1163,41) : warning C4514: vscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1178,37) : warning C4514: _fscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197,37) : warning C4514: fscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1215,37) : warning C4514: _fscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1236,41) : warning C4514: fscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1256,37) : warning C4514: _scanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274,37) : warning C4514: scanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1291,37) : warning C4514: _scanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1311,41) : warning C4514: scanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469,37) : warning C4514: vsprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1510,41) : warning C4514: vsprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1557,37) : warning C4514: _vsprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1595,37) : warning C4514: _vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1623,41) : warning C4514: vsnprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1668,37) : warning C4514: _vscprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1733,37) : warning C4514: _vsnprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1749,37) : warning C4514: _sprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774,37) : warning C4514: sprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1810,37) : warning C4514: _sprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833,41) : warning C4710: int sprintf_s(char *const ,const size_t,const char *const ,...): функция не является встроенной
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1833) : message : см. объявление "sprintf_s"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1862,37) : warning C4514: _sprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1883,37) : warning C4514: _sprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1903,37) : warning C4514: _snprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1940,37) : warning C4514: snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961,37) : warning C4514: _snprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1991,37) : warning C4514: _snprintf_c_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2012,37) : warning C4514: _snprintf_c: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2032,37) : warning C4514: _snprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2054,37) : warning C4514: _snprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2082,37) : warning C4514: _scprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2100,37) : warning C4514: _scprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2117,37) : warning C4514: _scprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2135,37) : warning C4514: _scprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2183,37) : warning C4514: vsscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2244,37) : warning C4514: _sscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263,37) : warning C4514: sscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2281,37) : warning C4514: _sscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2302,41) : warning C4514: sscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2330,37) : warning C4514: _snscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2354,37) : warning C4514: _snscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2378,37) : warning C4514: _snscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2402,37) : warning C4514: _snscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(100,37) : warning C4514: _vcwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(127,37) : warning C4514: _vcwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(154,37) : warning C4514: _vcwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(167,37) : warning C4514: _cwprintf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(185,37) : warning C4514: _cwprintf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(202,37) : warning C4514: _cwprintf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(220,37) : warning C4514: _cwprintf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(237,37) : warning C4514: _cwprintf_p_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(255,37) : warning C4514: _cwprintf_p: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(303,37) : warning C4514: _vcwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(335,37) : warning C4514: _vcwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(348,37) : warning C4514: _cwscanf_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(371,37) : warning C4514: _cwscanf: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(393,37) : warning C4514: _cwscanf_s_l: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h(411,37) : warning C4514: _cwscanf_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(225,26) : warning C4514: _wopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h(238,26) : warning C4514: _wsopen: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(185,45) : warning C4514: _wctime: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(192,43) : warning C4514: _wctime_s: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(234,39) : warning C4514: fstat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/stat.h(239,39) : warning C4514: stat: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(180,28) : warning C4514: fwide: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(189,28) : warning C4514: mbsinit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(209,28) : warning C4514: wmemcmp: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(268,48) : warning C4514: wmemchr: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(81,24) : warning C4514: __acrt_locale_get_ctype_array_value: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(165,37) : warning C4514: __ascii_iswalpha: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(170,37) : warning C4514: __ascii_iswdigit: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(175,37) : warning C4514: __ascii_towlower: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(180,37) : warning C4514: __ascii_towupper: подставляемая функция, не используемая в ссылках, была удалена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(234,28) : warning C4514: _ischartype_l: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(26,8) : warning C4514: Node::operator !=: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(28,24) : warning C4514: operator <<: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\includes\common.hpp(45,8) : warning C4514: compare_node_g_score::operator (): подставляемая функция, не используемая в ссылках, была удалена
+  Создание кода...
+D:\Projects\Coop_Pathfinding\includes\Agent.hpp(17,3) : warning C4514: Agent::Agent: подставляемая функция, не используемая в ссылках, была удалена
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(145)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(145)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(143) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(145)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(145) : Примечание. Вызов веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(136)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(136)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(135) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(136)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Solver.cxx(136) : Примечание. Вызов веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(24)  : warning C4706: назначение в пределах условного выражения
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(26)  : warning C4706: назначение в пределах условного выражения
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(33)  : warning C4706: назначение в пределах условного выражения
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(35)  : warning C4706: назначение в пределах условного выражения
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(50)  : warning C4706: назначение в пределах условного выражения
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(52)  : warning C4706: назначение в пределах условного выражения
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(27)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(27)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(25) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(27)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(27) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(61)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(61)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(51) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(61)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(61) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(59)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(59)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(54) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(59)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(59) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(56)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(56)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(54) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(56)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(56) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(76)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(76)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(75) : Примечание. Диапазон индекса "y", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(76)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(76) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(137)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(137)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(135) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(137)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(137) : Примечание. Вызов веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(40)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(40)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(34) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(40)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(40) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(38)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(38)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(37) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(38)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Map.cxx(38) : Примечание. Загрузка памяти веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(117)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(117)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(117) : Примечание. Диапазон индекса "next_best_g_score", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(117)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(117) : Примечание. Вызов веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(74)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(74)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(74) : Примечание. Диапазон индекса "next_best_g_score", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(74)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\Problem_Solver\Agent.cxx(74) : Примечание. Вызов веб-каналов в этой строке
+D:\Projects\Coop_Pathfinding\sources\main.cxx(102)  : warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+D:\Projects\Coop_Pathfinding\sources\main.cxx(102)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\main.cxx(101) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+D:\Projects\Coop_Pathfinding\sources\main.cxx(102)  : warning C5045: D:\Projects\Coop_Pathfinding\sources\main.cxx(102) : Примечание. Вызов веб-каналов в этой строке
+  Coopirative_Pathfinding.vcxproj -> D:\Projects\Coop_Pathfinding\build\Release\Debug\Coopirative_Pathfinding.exe

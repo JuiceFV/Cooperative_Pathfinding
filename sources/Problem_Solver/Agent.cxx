@@ -27,7 +27,7 @@ void Agent::set_portion_path(
     for (uint i = 0; i < WINDOW_SIZE; ++i) portion_path.push_back(goal);
     return;
   }
-  for (auto i = 0; i < WINDOW_SIZE; ++i) {
+  for (auto i = 0; i < WINDOW_SIZE - 1; ++i) {
     if (current == goal) break;  // Did we find the goal? YEAH!!!
 
     if (came_from.find(current) == came_from.end())
@@ -42,7 +42,7 @@ void Agent::set_portion_path(
         |0|1|2|3|4|5|6|7|8|	May be the agent want to out of the map.
        <-A| | | | | | | | | It's bad. Let's check this out.
     *****************************************************************************/
-    if (space_map[i].find(next_best) != space_map[i + 1].end()) {
+    if (&(space_map[i].find(next_best)) != &(space_map[i + 1].end())) {
       auto search1 = space_map[i].find(current);
 
       // Probably we already out of the map?
